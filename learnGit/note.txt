@@ -2,3 +2,6 @@ git add filename.suffix	//add file
 git commit -m "xxx"	//-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，
 git status	//让我们时刻掌握仓库当前的状态
 git diff	//有什么改变
+git log	//查看历史记录 加参数 --pretty=oneline 可简洁
+git reflog	//用来记录你的每一次命令
+git reset --hard commit_id	//Git允许我们在版本的历史之间穿梭，使用命令
